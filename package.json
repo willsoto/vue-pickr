@@ -1,0 +1,87 @@
+{
+  "name": "vue-pickr",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name VuePickr src/vue-pickr.vue",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "storybook": "start-storybook -p 9001 --config-dir .storybook --static-dir ./public"
+  },
+  "dependencies": {
+    "vue": "2.5.16",
+    "vue-class-component": "6.2.0",
+    "vue-property-decorator": "6.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "4.0.0-alpha.9",
+    "@storybook/addons": "4.0.0-alpha.9",
+    "@storybook/vue": "4.0.0-alpha.9",
+    "@vue/cli": "3.0.0-rc.2",
+    "@vue/cli-plugin-babel": "3.0.0-rc.2",
+    "@vue/cli-plugin-eslint": "3.0.0-rc.2",
+    "@vue/cli-plugin-unit-jest": "3.0.0-rc.2",
+    "@vue/cli-service": "3.0.0-rc.2",
+    "@vue/eslint-config-prettier": "3.0.0-rc.2",
+    "@vue/test-utils": "1.0.0-beta.19",
+    "babel-core": "7.0.0-bridge.0",
+    "lint-staged": "7.2.0",
+    "pickr-widget": "https://github.com/Simonwep/pickr.git#master",
+    "postcss-import": "11.1.0",
+    "prettier": "1.13.5",
+    "vue-template-compiler": "2.5.16"
+  },
+  "browserslist": [
+    "> 10%"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".+\\.vue$": "vue-jest",
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+    },
+    "moduleNameMapper": {
+      "@/(.*)$": "<rootDir>/src/$1"
+    },
+    "snapshotSerializers": [
+      "jest-serializer-vue"
+    ],
+    "testMatch": [
+      "<rootDir>/(tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))"
+    ]
+  },
+  "main": "./dist/VuePickr.umd.js",
+  "lint-staged": {
+    "*.ts": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add",
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "peerDependencies": {
+    "pickr-widget": ">=0.1.1"
+  }
+}
