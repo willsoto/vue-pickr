@@ -811,7 +811,7 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@storybook/addon-actions@^4.0.0-alpha.9":
+"@storybook/addon-actions@4.0.0-alpha.9":
   version "4.0.0-alpha.9"
   resolved "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-4.0.0-alpha.9.tgz#51946700ee1de6556c8531bb59e48b38460edd07"
   dependencies:
@@ -829,7 +829,7 @@
     react-inspector "^2.3.0"
     uuid "^3.2.1"
 
-"@storybook/addons@4.0.0-alpha.9", "@storybook/addons@^4.0.0-alpha.9":
+"@storybook/addons@4.0.0-alpha.9":
   version "4.0.0-alpha.9"
   resolved "https://registry.npmjs.org/@storybook/addons/-/addons-4.0.0-alpha.9.tgz#20990e11eaf543e5abdcf872a3bb71d2d649d035"
   dependencies:
@@ -1023,7 +1023,7 @@
     react-modal "^3.4.5"
     react-treebeard "^2.1.0"
 
-"@storybook/vue@^4.0.0-alpha.9":
+"@storybook/vue@4.0.0-alpha.9":
   version "4.0.0-alpha.9"
   resolved "https://registry.npmjs.org/@storybook/vue/-/vue-4.0.0-alpha.9.tgz#60c66157a3490838df81829bff401725a00a339a"
   dependencies:
@@ -1198,7 +1198,7 @@
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/cli-overlay/-/cli-overlay-3.0.0-rc.2.tgz#6ed6938bff3b45e01ecfae01a2f8b7debccdd387"
 
-"@vue/cli-plugin-babel@^3.0.0-rc.2":
+"@vue/cli-plugin-babel@3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/cli-plugin-babel/-/cli-plugin-babel-3.0.0-rc.2.tgz#caea015d3951d9f8d0582779076f2a895489fc7c"
   dependencies:
@@ -1206,7 +1206,7 @@
     "@vue/babel-preset-app" "^3.0.0-rc.2"
     babel-loader "^8.0.0-0"
 
-"@vue/cli-plugin-eslint@^3.0.0-rc.2":
+"@vue/cli-plugin-eslint@3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/cli-plugin-eslint/-/cli-plugin-eslint-3.0.0-rc.2.tgz#e44ae313f2d5cbd414bb6c595e172eef3316449b"
   dependencies:
@@ -1217,7 +1217,7 @@
     eslint-plugin-vue "^4.5.0"
     launch-editor "^2.2.1"
 
-"@vue/cli-plugin-unit-jest@^3.0.0-rc.2":
+"@vue/cli-plugin-unit-jest@3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/cli-plugin-unit-jest/-/cli-plugin-unit-jest-3.0.0-rc.2.tgz#1eddcf33744d32f933d949bc0ac5e5aa199b0196"
   dependencies:
@@ -1229,7 +1229,7 @@
     jest-transform-stub "^1.0.0"
     vue-jest "^2.6.0"
 
-"@vue/cli-service@^3.0.0-rc.2":
+"@vue/cli-service@3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/cli-service/-/cli-service-3.0.0-rc.2.tgz#8220ba047ce62f3112bdd5614478b8bc4f052b3f"
   dependencies:
@@ -1331,7 +1331,7 @@
     vue-cli-plugin-apollo "^0.13.4"
     watch "^1.0.2"
 
-"@vue/cli@^3.0.0-rc.2":
+"@vue/cli@3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/cli/-/cli-3.0.0-rc.2.tgz#64ed8c176bb2c8cb323823ec59441e2fa0f1cae8"
   dependencies:
@@ -1380,7 +1380,7 @@
     source-map "^0.5.6"
     vue-template-es2015-compiler "^1.6.0"
 
-"@vue/eslint-config-prettier@^3.0.0-rc.2":
+"@vue/eslint-config-prettier@3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.npmjs.org/@vue/eslint-config-prettier/-/eslint-config-prettier-3.0.0-rc.2.tgz#1e86d30a472332585794e722390468a99c63cdf9"
   dependencies:
@@ -1392,7 +1392,7 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@vue/preload-webpack-plugin/-/preload-webpack-plugin-1.0.0.tgz#08f156532909824da2aad258e151742d1e8f822e"
 
-"@vue/test-utils@^1.0.0-beta.19":
+"@vue/test-utils@1.0.0-beta.19":
   version "1.0.0-beta.19"
   resolved "https://registry.npmjs.org/@vue/test-utils/-/test-utils-1.0.0-beta.19.tgz#a1ec452081f6c7a9fa245478e2de227953a30455"
   dependencies:
@@ -7202,7 +7202,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^7.2.0:
+lint-staged@7.2.0:
   version "7.2.0"
   resolved "https://registry.npmjs.org/lint-staged/-/lint-staged-7.2.0.tgz#bdf4bb7f2f37fe689acfaec9999db288a5b26888"
   dependencies:
@@ -8592,7 +8592,7 @@ postcss-flexbugs-fixes@^3.3.1:
   dependencies:
     postcss "^6.0.1"
 
-postcss-import@^11.1.0:
+postcss-import@11.1.0:
   version "11.1.0"
   resolved "https://registry.npmjs.org/postcss-import/-/postcss-import-11.1.0.tgz#55c9362c9192994ec68865d224419df1db2981f0"
   dependencies:
@@ -8838,7 +8838,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.12.1, prettier@^1.13.0, prettier@^1.13.5:
+prettier@1.13.5, prettier@^1.12.1, prettier@^1.13.0:
   version "1.13.5"
   resolved "https://registry.npmjs.org/prettier/-/prettier-1.13.5.tgz#7ae2076998c8edce79d63834e9b7b09fead6bfd0"
 
@@ -10881,7 +10881,7 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-class-component@^6.1.0, vue-class-component@^6.2.0:
+vue-class-component@6.2.0, vue-class-component@^6.1.0:
   version "6.2.0"
   resolved "https://registry.npmjs.org/vue-class-component/-/vue-class-component-6.2.0.tgz#7adb1daa9a868c75f30f97f33f4f1b94aee62089"
 
@@ -10952,7 +10952,7 @@ vue-loader@^15.2.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-property-decorator@^6.1.0:
+vue-property-decorator@6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/vue-property-decorator/-/vue-property-decorator-6.1.0.tgz#ef97bcc1bfe794ec060133ca04a5aca02e808828"
   dependencies:
@@ -10966,7 +10966,7 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.16:
+vue-template-compiler@2.5.16, vue-template-compiler@^2.5.16:
   version "2.5.16"
   resolved "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.5.16.tgz#93b48570e56c720cdf3f051cc15287c26fbd04cb"
   dependencies:
@@ -10977,7 +10977,7 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.16:
+vue@2.5.16:
   version "2.5.16"
   resolved "https://registry.npmjs.org/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
 
