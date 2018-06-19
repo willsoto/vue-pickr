@@ -14,7 +14,8 @@ before_script:
 
 test:
   script:
-    - yarn test:unit
+    - yarn test:unit --coverage --no-color
+  coverage: '/All files\s*\|\s*([\d\.]+)/'
 
 build:
   script:
