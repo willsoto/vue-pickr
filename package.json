@@ -1,5 +1,5 @@
 {
-  "name": "vue-pickr",
+  "name": "@willsoto/vue-pickr",
   "version": "0.1.0",
   "license": "MIT",
   "main": "./dist/VuePickr.umd.js",
