@@ -1,6 +1,7 @@
 # Vue Pickr
 
 [![pipeline status](https://gitlab.com/willsoto/vue-pickr/badges/master/pipeline.svg)](https://gitlab.com/willsoto/vue-pickr/commits/master)
+[![coverage report](https://gitlab.com/willsoto/vue-pickr/badges/master/coverage.svg)](https://gitlab.com/willsoto/vue-pickr/commits/master)
 
 > Vue component wrapping [Pickr](https://github.com/Simonwep/pickr)
 
