@@ -5,7 +5,7 @@
 
 > Vue component wrapping [Pickr](https://github.com/Simonwep/pickr)
 
-### Installation
+## Installation
 
 ```bash
 npm install @willsoto/vue-pickr pickr-widget
@@ -15,9 +15,9 @@ npm install @willsoto/vue-pickr pickr-widget
 yarn add @willsoto/vue-pickr pickr-widget
 ```
 
-### Usage
+## Usage
 
-#### Template
+### Template
 
 ```html
 <div>
@@ -25,7 +25,7 @@ yarn add @willsoto/vue-pickr pickr-widget
 </div>
 ```
 
-#### Script
+### Script
 
 ```js
 import VuePickr from '@willsoto/vue-pickr';
