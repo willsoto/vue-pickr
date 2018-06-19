@@ -1,6 +1,6 @@
 {
   "name": "@willsoto/vue-pickr",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "./dist/VuePickr.umd.js",
   "module": "./dist/VuePickr.esm.js",
@@ -8,6 +8,16 @@
     "dist",
     "src"
   ],
+  "homepage": "https://github.com/willsoto/vue-pickr",
+  "bugs": "https://github.com/willsoto/vue-pickr/issues",
+  "author": {
+    "name": "Will",
+    "email": "2791730+willsoto@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willsoto/vue-pickr.git"
+  },
   "scripts": {
     "prebuild": "rimraf ./dist",
     "build": "rollup --config rollup.config.js",
