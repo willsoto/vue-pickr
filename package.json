@@ -4,6 +4,10 @@
   "license": "MIT",
   "main": "./dist/VuePickr.umd.js",
   "module": "./dist/VuePickr.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "prebuild": "rimraf ./dist",
     "build": "rollup --config rollup.config.js",
