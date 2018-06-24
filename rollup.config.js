@@ -4,8 +4,6 @@ import eslint from 'rollup-plugin-eslint';
 
 import pkg from './package.json';
 
-// sourcemaps currently broken:
-// https://github.com/vuejs/rollup-plugin-vue/issues/194
 const outputs = [
   {
     format: 'umd',
@@ -28,7 +26,10 @@ const outputs = [
 const libs = outputs.map((output) => {
   return {
     input: 'src/vue-pickr.vue',
-    output: output,
+    output: {
+      ...output,
+      sourcemap: true
+    },
     external: ['pickr-widget'],
     plugins: [eslint(), vue(), filesize()]
   };
